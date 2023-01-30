@@ -19,7 +19,7 @@ export function Header(){
 
         >
           <Plus size={20} className='text-violet-500' />
-            Novo hábito
+            New habit
         </Dialog.Trigger>
         
         <Dialog.Portal>
@@ -31,7 +31,7 @@ export function Header(){
             </Dialog.Close>
 
             <Dialog.Title className="text-3xl leading-tight font-extrabold ">
-              Criar hábito
+              Create habit
             </Dialog.Title>
 
             <NewHabitForm/>
